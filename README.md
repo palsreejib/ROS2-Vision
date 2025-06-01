@@ -1,10 +1,10 @@
 # ROS2-Vision
 
-This ROS 2 (Humble) project accesses your computer's webcam and performs real-time object detection using **YOLOv8**. The detection results are streamed to your browser via a local web interface.
+This ROS 2 (Humble) project utilizes your computer's webcam to perform real-time object detection using **YOLOv8**. The detection results can be streamed to your browser via a local web interface or through rqt.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 Only the `src/` folder is included in this repository. It contains the necessary ROS 2 packages for:
 
@@ -14,9 +14,7 @@ Only the `src/` folder is included in this repository. It contains the necessary
 
 ---
 
-## 🚀 Getting Started
-
-### ✅ Prerequisites
+### Prerequisites
 
 - **ROS 2 Humble** installed
 - **Python 3.8+**
